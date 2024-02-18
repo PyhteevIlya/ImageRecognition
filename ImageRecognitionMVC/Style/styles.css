@@ -1,0 +1,61 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.image {
+    display: none;
+    margin: 0 auto; /* Устанавливаем отступы сверху и снизу в 0, а слева и справа автоматически выравниваем по центру */
+    max-width: 30%; /* Устанавливаем максимальную ширину изображения */
+}
+
+.container {
+    max-width: 100%;
+    margin: 5px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hidden {
+    display: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.form-container {
+    margin-top: 20px;
+}
+
+    .form-container input[type="file"] {
+        margin-bottom: -17px;
+    }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+    table td, table th {
+        padding: 8px;
+        border: 1px solid #ddd;
+        text-align: left;
+    }
+
+    table th {
+        background-color: #f2f2f2;
+    }
